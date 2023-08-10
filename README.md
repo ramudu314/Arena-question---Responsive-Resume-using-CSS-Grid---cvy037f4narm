@@ -10,7 +10,7 @@
 }
 
 .right-section {
-  grid-column:span 1 / span 2;
+  grid-colum: span 1 / span 2;
   width: 90%;
   background-color: lightgreen;
 }
