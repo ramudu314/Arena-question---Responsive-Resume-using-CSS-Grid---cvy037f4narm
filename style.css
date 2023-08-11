@@ -89,7 +89,14 @@
     letter-spacing: 1px;
   }
   @media screen and (max-width: 674px) {
-    .main-content {
-      grid-template-columns: 300px 700px;
-    }
+  .main-content {
+    grid-template-columns: repeat(1, 1fr); /* Stack sections on small screens */
   }
+}
+
+@media screen and (min-width: 675px) {
+  .main-content {
+    grid-template-columns: 300px 700px; /* Two columns on larger screens */
+  }
+}
+
