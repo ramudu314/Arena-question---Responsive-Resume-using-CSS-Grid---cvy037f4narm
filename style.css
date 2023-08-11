@@ -90,7 +90,11 @@
   }
   @media screen and (max-width: 674px) {
   .main-content {
-    grid-template-columns: repeat(1, 1fr); /* Stack sections on small screens */
+    grid-template-columns: 1fr; /* Stack sections on small screens */
+  }
+
+  .left-section, .right-section {
+    width: 100%;
   }
 }
 
@@ -99,4 +103,11 @@
     grid-template-columns: 300px 700px; /* Two columns on larger screens */
   }
 }
+This CSS code includes the responsive layout styling with media queries, as well as the styles for the individual sections and elements within the resume. You can use this CSS code along with the HTML structure you provided earlier to create the complete responsive resume layout. Remember to replace placeholder values with your actual content and adjust styles as needed.
+
+
+
+
+
+
 
