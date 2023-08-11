@@ -42,6 +42,7 @@
   text-align: center;
   text-transform: uppercase;
   padding: 0.8rem;
+  letter-spacing: 0.02px;
 }
 .designation {
   font-size: 1rem;
@@ -61,7 +62,7 @@
     /* Add styles for social media icons */
   }
   .skill {
-    font-size: 0.75rem;
+    font-size: 12px;
     text-align: center;
     text-transform: uppercase;
     padding: 1rem 0.5rem;
@@ -72,7 +73,7 @@
     text-align: left;
     padding-bottom: 0.5rem;
   }
-  .progress-Bar {
+  .progress-bar {
     border: 1px solid white;
     height: 4px;
 
