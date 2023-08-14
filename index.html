@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <scripct>
+        // Wait for the element with class 'main-content' to be visible
+cy.get('.main-content').should('be.visible');
 
+// Check the CSS property 'grid-template-columns'
+cy.get('.main-content').should('have.css', 'grid-template-columns', '300px 700px');
+
+    </scripct>
     </head>
     <body>
         <main class="main-content" contenteditable="true">
